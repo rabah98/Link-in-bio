@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <title>Rabah Merzoug — Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
       * {
         border: 1px red dashed;
@@ -9,33 +11,84 @@
       body {
         margin: 0;
         padding: 0;
-        background-color: #f0f0f0;
-        font-family: Arial, sans-serif
+        font-family: "Poppins", sans-serif;
+        color: rgb(227, 17, 17);
+        background: linear-gradient(to bottom, #ede8f4, #100d0e);
+        display: flex;
+        min-height: 100vh;
       }
       .main-container {
+        background-color: rgb(55, 136, 37);
+        width: 800px;
+        margin: 10px auto;
+        padding: 0 28px 28px 28px;
         text-align: center;
-        max-width: fit-content;
-        margin: 0 auto;
+        box-sizing: border-box;
       }
-      .image-row, .name-row, .social-icons-row, .links-row {
-        margin: 20px 0;
+      .image-row {
+        margin-top: 0%;
+      }
+      .name-row{
+        margin: 10px;
+        height: auto;
+        font-size: 1.5rem;  
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+      } 
+      .social-icons-row, .links-row {
+        margin: 30px 0;
+      }
+      .social-icons-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 120px;
+        margin-top: 15px;
+      }
+      .social-icons-row a {
+        text-decoration: none;
+        color: #520d9c;
+        font-weight: 500;
+        font-family: "Poppins", sans-serif;
+        transition: color 0.3s ease;
+      }
+      .social-icons-row a i {
+        font-size: 28px;
+        color: #333;
+        transition: color 0.3s ease;
+      }
+
+      .social-icons-row a:hover i {
+        color: #0077b5;
+      }
+
+      .avatar {
+        width: 140px;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 50%;
+        display: inline-block;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+        border: 4px solid rgba(255,255,255,0.6);
+        background-color: #ddd;
       }
     </style>
   </head>
   <body>
     <div class="main-container">
       <div class="image-row">
-        <img src="https://scontent.ford4-1.fna.fbcdn.net/v/t39.30808-1/458479321_3534636723494739_773980414497571847_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=107&ccb=1-7&_nc_sid=1d2534&_nc_ohc=0hoAHoDPAe4Q7kNvwG72GUc&_nc_oc=Adl9iEIsrVGp7Qq39vSChhuT-bo4dNh_E4m6wExlIHPzcj_XgF55IA1akf_g3QjsM5w&_nc_zt=24&_nc_ht=scontent.ford4-1.fna&_nc_gid=vk8SD6GSO9xng3ngUK3zMg&oh=00_AfdYJypkCDdLJNOCNcWcCr7-Ve5DLYDbglMkpOJGghnbDA&oe=68F660B4" alt="Rabah Merzoug headshot" >
+        <img src="https://scontent.ford4-1.fna.fbcdn.net/v/t39.30808-1/458479321_3534636723494739_773980414497571847_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=107&ccb=1-7&_nc_sid=1d2534&_nc_ohc=0hoAHoDPAe4Q7kNvwG72GUc&_nc_oc=Adl9iEIsrVGp7Qq39vSChhuT-bo4dNh_E4m6wExlIHPzcj_XgF55IA1akf_g3QjsM5w&_nc_zt=24&_nc_ht=scontent.ford4-1.fna&_nc_gid=vk8SD6GSO9xng3ngUK3zMg&oh=00_AfdYJypkCDdLJNOCNcWcCr7-Ve5DLYDbglMkpOJGghnbDA&oe=68F660B4" alt="Rabah Merzoug headshot" class="avatar" >
       </div>
       <div class="name-row">
         Rabah Merzoug
       </div>
       <div class="social-icons-row">
-        <a href="https://github.com/rabah98" target="_blank" >GitHUB</a>
-        <a href="https://www.linkedin.com/in/rabah-merzoug/" target="_blank" >LinkedIn</a>
-        <a href="https://www.facebook.com/rabah.merzoug.654476/" target="_blank" >Facebook</a>
-        <a href="tiktok.com/@usavibes1702" target="_blank" >Tiktok</a>
+        <a href="https://github.com/rabah98" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/rabah-merzoug/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/rabah.merzoug.654476/" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://tiktok.com/@usavibes1702" target="_blank"><i class="fab fa-tiktok"></i></a>
       </div>
+
       <div class="links-row">
         <div class="item">
           <img src="" alt="" >
