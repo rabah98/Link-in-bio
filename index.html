@@ -5,9 +5,9 @@
     <title>Rabah Merzoug — Profile</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
-      * {
+      /* * {
         border: 1px red dashed;
-      }
+      } */
       body {
         margin: 0;
         padding: 0;
@@ -72,6 +72,48 @@
         border: 4px solid rgba(255,255,255,0.6);
         background-color: #ddd;
       }
+      .links-row {
+        margin-top: 100px;
+      }
+      .item {
+        position: relative;
+        display: flex;
+        width: 100%;
+        max-width: 700px;
+        padding: 0;
+        border-radius: 25px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        margin-bottom: 15px;
+        background-color: #eb1414;
+      }
+      .item img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: block;
+        object-fit: cover;
+        margin: 0;
+      }
+      .item a {
+        position: absolute;   
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #ffea00; 
+        text-decoration: none;     
+        font-weight: bold;
+        font-family: 'Poppins';
+        font-size: 18px;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        transition: 0.3s ease;
+      }
+      .item a:hover {
+        color: #00ffea;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        transform: translate(-50%, -50%) scale(1.1); 
+      }
     </style>
   </head>
   <body>
@@ -91,20 +133,20 @@
 
       <div class="links-row">
         <div class="item">
-          <img src="" alt="" >
-          <a href="" target="_blank" ></a>
+          <img src="Images/pic1.jpg" alt="Picture's link not found" >
+          <a href="https://medium.com/@rmerzoug471/introduction-to-javascript-718ae3e6f4c6" target="_blank" >Introduction to JavaScript</a>
         </div>
         <div class="item">
-          <img src="" alt="" >
-          <a href="" target="_blank" ></a>
+          <img src="Images/pic2.jpg" alt="Picture's link not found" >
+          <a href="https://medium.com/@rmerzoug471/principles-of-management-2a22a2e5a9e2" target="_blank" >Principles of management</a>
         </div>
         <div class="item">
-          <img src="" alt="" >
-          <a href="" target="_blank" ></a>
+          <img src="Images/pic3.jpg" alt="Picture's link not found" >
+          <a href="https://medium.com/@rmerzoug471/creating-an-api-in-rails-c7e58ef6c3ae" target="_blank" >Creating an API with Rails</a>
         </div>
         <div class="item">
-          <img src="" alt="" >
-          <a href="" target="_blank" ></a>
+          <img src="Images/pic4.jpg" alt="Picture's link not found" >
+          <a href="https://medium.com/@rmerzoug471/active-record-associations-2efa97a0b09" target="_blank" >Active Record Associations</a>
         </div>
       </div>
     </div>
